@@ -1,4 +1,4 @@
-name: Test Demo 1
+name: Test Demo Maven
 
 on:
   pull_request:
@@ -9,7 +9,7 @@ on:
   workflow_dispatch: {}
 
 jobs:
-  test-demo-1:
+  test-demo-maven:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
