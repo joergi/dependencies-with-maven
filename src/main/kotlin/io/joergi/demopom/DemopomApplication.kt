@@ -8,5 +8,5 @@ class DemopomApplication
 
 fun main(args: Array<String>) {
 	runApplication<DemopomApplication>(*args)
-	println("hello world from maven")
+	println("Hello World - with maven!")
 }
