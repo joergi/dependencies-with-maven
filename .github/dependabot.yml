@@ -1,0 +1,13 @@
+version: 2
+updates:
+  - package-ecosystem: "maven"
+    directory: "/"
+    schedule:
+      interval: "daily"
+      time: "09:00"
+    open-pull-requests-limit: 100
+    labels:
+      - "dependencies"
+      - "maven"
+      - "kotlin"
+      - "automatic-merge"
